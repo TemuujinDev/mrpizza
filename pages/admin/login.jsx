@@ -11,7 +11,7 @@ const Login = () => {
 
   const handleClick = async () => {
     try {
-      await axios.post("http://mrpizza.vercel.app/api/login", {
+      await axios.post("https://mrpizza.vercel.app/api/login", {
         username,
         password,
       });
